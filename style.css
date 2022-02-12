@@ -1,0 +1,93 @@
+body {
+  font-family: "Comfortaa", cursive;
+  background: #fad3c8;
+}
+h1 {
+  color: #48484a;
+  font-size: 30px;
+  font-weight: 100;
+  line-height: 28px;
+  margin-bottom: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  color: #48484a;
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 19px;
+}
+
+li:first-letter {
+  text-transform: capitalize;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.temperature {
+  font-size: 60px;
+  line-height: 1;
+  padding: 0px 4px 0px 0px;
+}
+
+.weather-icon {
+  font-size: 64px;
+  line-height: 1;
+  padding: 0px 4px 0px 0px;
+}
+
+.units {
+  position: relative;
+  top: -20px;
+}
+
+.weather-app {
+  padding: 20px;
+  border: 1px solid #dadde1;
+  border-radius: 8px;
+  background: #ffff;
+}
+
+.weather-app-wrapper {
+  max-width: 600px;
+  margin: 30px auto;
+}
+
+.overview {
+  margin-bottom: 20px;
+}
+
+a.active {
+  color: #48484a;
+  cursor: default;
+}
+
+a.active:hover {
+  text-decoration: none;
+}
+
+.display_images {
+  margin: 0 auto;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  font-size: small;
+  border-radius: 8px;
+}
+
+.display_images img {
+  border-radius: 8px;
+  cursor: pointer;
+  position: relative;
+  top: -40px;
+}
+
+figcaption {
+  font-weight: normal;
+  font-size: 11px;
+}
